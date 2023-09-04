@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'HackerNews',
+    'rest_framework.authtoken',
     'rest_framework'
 ]
 
