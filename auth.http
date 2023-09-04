@@ -1,0 +1,13 @@
+GET http://192.168.211.23:8000/news_items/
+Content-Type: application/json
+Accept: application/json
+Authentication: "Token 040db739c79d43eba63051abc9ee12698d736e45"
+
+###
+POST http://192.168.211.23:8000/auth/
+Content-Type: application/json
+Accept: application/json
+
+{"username":"bahman", "password":"123"}
+
+###

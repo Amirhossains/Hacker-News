@@ -1,8 +1,11 @@
 from django.db import models
 
+# from users.models import AccountCustomUser
+
 
 class AccountsInvitation(models.Model):
     # inviting_user = models.ForeignKey(to=AccountCustomUsers, on_delete=models.CASCADE)
+    # users = models.ForeignKey(to=AccountCustomUsers)
     invite_code = models.IntegerField(verbose_name='invite code')
     invited_email_address = models.CharField(verbose_name='invited email address', max_length=32, blank=True)
     num_signups = models.IntegerField(verbose_name='num signups', blank=True, null=True)
