@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'HackerNews',
+    'News',
+    'EmailDigest',
+    'Django',
     'rest_framework.authtoken',
     'rest_framework'
 ]
@@ -141,5 +144,3 @@ REST_FRAMEWORK = {
             'rest_framework.permissions.IsAuthenticated'
         ]
 }
-
-# AUTH_USER_MODEL = 'users.User'
